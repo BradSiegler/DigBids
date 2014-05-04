@@ -1,0 +1,58 @@
+body{
+	background-color: #1b191b;
+	background-image: url('../img/bg.png');
+	background-position: center top;
+	background-size: cover;
+	text-align: center;
+}
+
+.logo{
+	margin-top:125px;
+	margin-bottom: 50px;
+}
+
+@media (max-width:767px){
+.logo{
+	margin-top: 75px;	
+}
+}
+
+#logo, #mc_embed_signup{
+	margin: 0 auto;
+	max-width: 91%;
+	width:500px;
+}
+
+#mc_embed_signup{
+	margin-bottom: 50px;
+	background: transparent !important;
+}
+
+#mc_embed_signup .mc-field-group label{
+	display: none !important;
+}
+
+#mc-embedded-subscribe-form{
+	text-align: center !important;
+}
+
+input#mc-embedded-subscribe.btn-1e{
+	background:#fff;
+	color: #fab916;
+	border:3px solid #fab916;
+	margin:25px auto;
+	padding:.35em 1em;
+	height: auto;
+	font-size:21px !important;
+}
+
+input#mc-embedded-subscribe.btn-1e:hover{
+	background:#fab916;
+	color:#fff;
+	border:3px solid #fff;
+	transition: all 0.3s;
+}
+
+input#mce-EMAIL.required.email{
+	color:#1b191b;
+}
